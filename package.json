@@ -1,6 +1,6 @@
 {
-  "name": "convert-color",
-  "version": "0.0.1",
+  "name": "convert-colorvalue",
+  "version": "0.0.3",
   "description": "some style is usually to used",
   "main": "index.js",
   "scripts": {
