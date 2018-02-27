@@ -1,0 +1,30 @@
+{
+  "name": "convert-color",
+  "version": "0.0.1",
+  "description": "some style is usually to used",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "p": "npm publish"
+  },
+  "keywords": [
+    "color",
+    "convert",
+    "javascript"
+  ],
+  "author": {
+    "name": "2ue",
+    "email": "jie746635835@163.com"
+  },
+  "homepage": "https://github.com/2ue/convert-color",
+  "repository": {
+    "type": "git",
+    "ssh": "git@github.com:2ue/convert-color.git",
+    "url": "https://github.com/2ue/convert-color.git"
+  },
+  "bugs": {
+    "url": "https://github.com/2ue/convert-color/issues"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

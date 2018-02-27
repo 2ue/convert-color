@@ -1,9 +1,10 @@
 /**
  * Created by 2ue on 2017/8/20.
+ * @function 用于16进制色值与RGB色值之间的互相转换
  */
 
 function color(config) {
-    this.short = typeof config.short === 'undefined' || config.short ? true : false;
+    this.short = config && (typeof config.short === 'undefined' || config.short) ? true : false;
     this.rgbReg = /^rgb\(([0-9]{1,3}\,){2}([0-9]{1,3})\)\;?$/;
     this.hexReg = /^#([0-9a-f]{3}|[0-9a-f]{6})$/;
 }
@@ -56,4 +57,5 @@ color.prototype = {
         }
     }
 };
+
 module.exports = color;
